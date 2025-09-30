@@ -1,1 +1,1 @@
-This is my udemy exercises
+This is my studying exercises
