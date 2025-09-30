@@ -1,10 +1,5 @@
-quote = "pee pee poo poo"
+birth_year = input('what year you were born?')
 
-quote2 = quote.replace("pee", "💦")
+age = 2025 - int(birth_year)
 
-print(quote.replace("poo", "💩"))
-
-print(quote)
-
-
-print(quote2)
+print(f'your age is aproximately: {age}')
