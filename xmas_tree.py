@@ -7,10 +7,13 @@ picture = [
     [0,0,0,1,0,0,0]
 ]
 line = ''
-for i in picture:
-    for j in i:
-        if (j == 1):
-            print("*", end='')
-        else:
-            print(" ", end='')
-    print('')
+def Xmas_tree(): 
+    for row in picture:
+        for pixel in row:
+            if (pixel== 1):
+                print("*", end='')
+            else:
+                print(" ", end='')
+        print('') # need a line after the row-loop
+
+Xmas_tree()
