@@ -2,7 +2,7 @@
 user1 = {
     'name': 'Sorna',
     # changing this will either run or not run the message_friends function.
-    'valid': True
+    'valid': False
 }
 
 
